@@ -1,7 +1,8 @@
 // Configuración inicial
 const express = require("express");
 const app = express();
-const port = process.env.PORT || 3001;
+
+const port = process.env.PORT || 8080;
 
 // Motor de plantilla
 const hbs = require('hbs');
@@ -92,5 +93,6 @@ app. get('/index', (rec, res) => {
 
 // Iniciar servidor
 app.listen(port, () => {
-  console.log(`Example app listening at http://localhost:${port}`);
+
+  console.log(`Escuchando el servidor en el puerto http://localhost:${port}`);
 });
