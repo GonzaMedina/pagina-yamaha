@@ -9,7 +9,7 @@
     "dev": "nodemon app"
   },
   "keywords": [],
-  "author": "EZEQUIEL DELALOYE",
+  "author": "Medina Gonzalo",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
